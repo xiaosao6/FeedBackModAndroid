@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FeedBackModAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- quick feedback -->
+    <string name="feedback_have_suggestion">我有建议</string>
+    <string name="feedback_have_prob">遇到问题</string>
+    <string name="feedback_contact_hint">请填写您的手机或邮箱, 以便我们与您联系(可选)</string>
+    <string name="feedback_done_toast">感谢您的反馈, 我们将认真参阅</string>
+    <string name="feedback_commit">提交</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_pressed">#F4F4F4</color>
+    <color name="white">#FFFFFF</color>
+    
+    <color name="bottom_btn1">#333333</color>
+    <color name="feedback_gray">#A5A5A5</color>
+    <color name="feedback_et_hint">#C9C9C9</color>
+    
+    
+</resources>

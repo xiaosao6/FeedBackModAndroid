@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/feedback_have_suggestion_tv"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/list_item_bg_color"
+        android:gravity="center_vertical"
+        android:paddingLeft="22dp"
+        android:text="@string/feedback_have_suggestion"
+        android:textColor="@color/bottom_btn1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/feedback_has_prob_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="22dp"
+        android:text="@string/feedback_have_prob"
+        android:textColor="@color/feedback_gray"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/feedback_index_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:scrollbars="none"
+        android:divider="@drawable/feedback_lv_divider"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</LinearLayout>
